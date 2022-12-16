@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+}
+#home{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul li .nav-link{
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    color: white !important;
+    border: none !important;
+}
+
+.banner{
+    height: 90%;
+    color: white;
+}
+.responsive-headline{
+    font-size: 100px !important;
+}
+.banner-text ul li{
+    list-style: none;
+}
+.smoothscroll{
+    text-decoration: none;
+}
+.social a{
+    font-size: 35px;
+    color: white !important;
+}
+.social a:hover{
+    color: cornflowerblue !important;
+}
+#content{
+    height: 100vh;
+}
